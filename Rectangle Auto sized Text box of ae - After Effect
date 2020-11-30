@@ -1,0 +1,11 @@
+// insert this code in to ../Contents/Rectangle1/RectAngle Path 1/ Size (press alt+click)
+
+
+R=thisComp.layer("text").sourceRectAtTime();
+Height=R.height;
+Width=R.width;
+
+P=effect("Slider Control")("Slider");
+x=Width+p;
+y=Height+p;
+[x,y]
